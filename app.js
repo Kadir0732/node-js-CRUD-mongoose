@@ -5,7 +5,7 @@ const mongoose = require("mongoose")
 const router = require("./modules/Router")
 
 const PORT = 3000
-const DBConnectionUrl = "mongodb+srv://userName:password@blog.9cq2m.mongodb.net/blog?retryWrites=true&w=majority"
+const DBConnectionUrl = ""
 
 mongoose.connect(DBConnectionUrl).then(() => {
     console.log("API Started")
